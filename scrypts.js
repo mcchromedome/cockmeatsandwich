@@ -205,9 +205,9 @@ spriteSheetImage.src = "grantfinal2.png";
 var sprite = new Image();
 sprite.src = "pinky.png";
 var persiesLoc = [];
-persiesLoc[0] = {x:0, y:0, width:317, height:spriteSheetImage.height-40, offsetX:-215, offsetY:-25};
-persiesLoc[1] = {x:0, y:0, width:317, height:spriteSheetImage.height-40, offsetX:-215, offsetY:-25};
-persiesLoc[2] = {x:0, y:0, width:317, height:spriteSheetImage.height-40, offsetX:-215, offsetY:-25};
+persiesLoc[0] = {x:0, y:0, width:317, height:spriteSheetImage.height-25, offsetX:-215, offsetY:-25};
+persiesLoc[1] = {x:0, y:0, width:317, height:spriteSheetImage.height-25, offsetX:-215, offsetY:-25};
+persiesLoc[2] = {x:0, y:0, width:317, height:spriteSheetImage.height-25, offsetX:-215, offsetY:-25};
 var ballLoc = {x:800, y:0, width:150, height:100, offsetX:-15, offsetY:-15};
 
 window.requestAnimationFrame =
