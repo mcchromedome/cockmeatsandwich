@@ -98,7 +98,7 @@ var state = {
         this.player.reset(this.world.width/4, this.world.centerY);
         this.player.animations.play("fly");
 
-        this.scoreText.setText("TOUCH TO\nSTART GAME");
+        this.scoreText.setText("TOUCH TO\nPLAY GAPING GRANT");
 
         this.walls.removeAll();
     },
@@ -124,7 +124,7 @@ var state = {
     },
     setGameOver: function(){
         this.gameOver = true;
-        this.scoreText.setText("FINAL SCORE\n"+this.score+"\n\nTOUCH TO\nTRY AGAIN");
+        this.scoreText.setText("FINAL SCORE\n"+this.score+"\n\nYOU\nSUCK");
         this.timeOver = this.time.now;
 
         this.walls.forEachAlive(function(wall){
