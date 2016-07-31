@@ -124,7 +124,7 @@ var state = {
     },
     setGameOver: function(){
         this.gameOver = true;
-        this.scoreText.setText("FINAL SCORE\n"+this.score+"\n\nYOU\nSUCK");
+        this.scoreText.setText("FINAL SCORE\n"+this.score+"\n\nYOU\nSUCK\nBITCH!");
         this.timeOver = this.time.now;
 
         this.walls.forEachAlive(function(wall){
