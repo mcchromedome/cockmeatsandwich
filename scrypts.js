@@ -201,7 +201,7 @@
 
 var spriteSheetSource = "";
 var spriteSheetImage = new Image();
-spriteSheetImage.src = "grantfinal2.png";
+spriteSheetImage.src = "colors2.png";
 var sprite = new Image();
 sprite.src = "pinky.png";
 var persiesLoc = [];
